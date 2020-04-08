@@ -1,0 +1,25 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+#alert-textarea {
+    visibility: hidden;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.alert-error {
+    color: red;
+    visibility: visible !important;
+}
